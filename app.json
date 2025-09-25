@@ -26,8 +26,8 @@
     },
       "ANTIDELETE": {
       "description": "Set true to see deleted messages.",
-      "value": "false",
-      "required": false
+      "value": "true",
+      "required": true
     },
     "WELCOME": {
       "description": "Put 'false' or 'true' to enable or disable WELCOME.",
@@ -37,7 +37,7 @@
     "AUTO_VIEW_STATUS": {
       "description": "Auto-view saved WhatsApp statuses.",
       "value": "true",
-      "required": false
+      "required": true
     },
     "CHATBOT": {
       "description": "Set to true if you want your bot to autoreply messages.",
@@ -51,7 +51,7 @@
     },
     "OWNER_NUMBER": {
       "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\").",
-      "value": "2349066528353"
+      "value": "233553922079"
     },
     "PUBLIC": {
       "description": "Worktype of your bot. Use public or private. If it is private, then only the bot number can use it. If public, then everyone can use it.",
